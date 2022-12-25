@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id = "demo">
+
+<script>
+//create object constructor function
+function Person(first, Lname, age){
+return this.firstname = first;
+return this.Lname = Lname;
+return this.age = age;
+};
+//create person object
+var myKid = new Person ("Bruce", "Wayne" 34);
+
+// You can also add a METHOD to the object function
+Person.prototype.name= function(){
+return this.firstname + this.Lname;}
+
+// Now we can display any property of the object constructor
+document.getElementById("demo").innerHTML = " " + myKid.age + " " + person.name();
+
+// A method is a function in an object
+
+</body>
+</html>
